@@ -1,0 +1,49 @@
+.heading
+{
+    margin: 0;
+    box-shadow: 15px 15px 10px grey;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+}
+.note
+{
+    color: black;
+    font-size: 15px;
+}
+.uppercase
+{
+    text-transform: uppercase;
+}
+canvas
+{
+    border: 2px white ridge;
+    padding: 5px;
+    margin: 15px;
+    box-shadow: -10px -7px 30px yellow;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from
+    {
+        box-shadow: 20px 20px 30px violet;
+    }to{
+        box-shadow: 20px 20px 30px chartreuse;
+    }
+}
+.footer
+{
+    width: 100%;
+    background: orange;
+    margin: 0;
+    line-height: 3;
+    position: fixed;
+    bottom: 0;
+    box-shadow: -10px -10px 10px grey;
+    font-style: monospace;
+    padding: 5px;
+}
