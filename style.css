@@ -22,17 +22,17 @@ canvas
     padding: 5px;
     margin: 15px;
     box-shadow: -10px -7px 30px yellow;
-    animation-name: example;
-    animation-duration: 4s;
+    animation-name: example2;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
-@keyframes example
+@keyframes example2
 {
     from
     {
-        box-shadow: 20px 20px 30px violet;
+        background: #22d4cb;
     }to{
-        box-shadow: 20px 20px 30px chartreuse;
+        background: grey;
     }
 }
 .footer
@@ -46,4 +46,19 @@ canvas
     box-shadow: -10px -10px 10px grey;
     font-style: monospace;
     padding: 5px;
+}
+video
+{
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example1
+{
+    from
+    {
+        box-shadow: 20px 20px 30px violet;
+    }to{
+        box-shadow: 20px 20px 30px chartreuse;
+    }
 }
