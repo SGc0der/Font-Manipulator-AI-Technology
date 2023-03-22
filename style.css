@@ -5,7 +5,7 @@
     width: 100%;
     font-size: 30px;
     color: white;
-    padding: 20px;
+    padding: 7px;
 }
 .note
 {
@@ -15,6 +15,14 @@
 .uppercase
 {
     text-transform: uppercase;
+}
+#text_input, #set_text
+{
+    text-align: center;
+}
+#set
+{
+    margin-top: 10px;
 }
 canvas
 {
